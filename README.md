@@ -8,6 +8,8 @@ Format the partitions (system, data, cache) of mobile devices that have problems
 ### * Huawei
 1. Ascend D quad XL - U9510e
  - [update file for: format system, data, cache](https://github.com/xhdix/Mobile-Partition-Format-Tool/releases/tag/U9510e)
+2. Ascend Y300
+ - update file for: format system, data, cache
 
 ### * Sony
 1. Xpria Neo V - MT11i
