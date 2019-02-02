@@ -1,0 +1,16 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: sW+DnC8SSMLrU6zz+nHyhsCWvwM=
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: UxHw3sqUgS+3M73/lvnYZYSzziU=
+
+Name: META-INF/com/android/metadata
+SHA1-Digest: ZmZ7GwX6yYCThh58qzt2O4ocHBc=
+
+Name: META-INF/com/android/otacert
+SHA1-Digest: QW7yPFUPbhU0tUYKW4i2EdneCnw=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: pHxvoOPc0K+n4e0j5PxF20BRqBQ=
+
