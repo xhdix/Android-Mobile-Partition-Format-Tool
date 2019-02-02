@@ -23,6 +23,8 @@ Format the partitions (system, data, cache) of mobile devices that have problems
 
 
 ## references
+
+ - https://forum.xda-developers.com/android/general/info-android-device-partitions-basic-t3586565
  - https://forum.xda-developers.com/xperia-neo/development/rom-candy5-v2-0-2-haida-hallon-t3092668
  - https://github.com/LegacyXperia/local_manifests/issues/898
  
