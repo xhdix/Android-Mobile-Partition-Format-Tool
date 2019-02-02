@@ -6,14 +6,14 @@ Format the partitions (system, data, cache) of mobile devices that have problems
 ## Supported devices
 
 ### Huawei
-1. [Ascend D quad XL - U9510e](https://github.com/xhdix/Mobile-Partition-Format-Tool/releases/tag/U9510e)
- - [update file for format system, data, cache](https://github.com/xhdix/Mobile-Partition-Format-Tool/releases/download/U9510e/U9510e_Partition-Formater-Tool_signed.zip)
+1. Ascend D quad XL - U9510e
+ - [update file for format system, data, cache](https://github.com/xhdix/Mobile-Partition-Format-Tool/releases/tag/U9510e)
 
 ### Sony
 1. Xpria Neo V - 
- - update file for format system, data, cache
- - update file for format system
- - update file for format data
+ - [update file for format system, data, cache](https://github.com/xhdix/Mobile-Partition-Format-Tool/releases/tag/MT11i)
+ - [update file for format system](https://github.com/xhdix/Mobile-Partition-Format-Tool/releases/tag/MT11i-system)
+ - [update file for format data](https://github.com/xhdix/Mobile-Partition-Format-Tool/releases/tag/MT11i-data)
 2. Xpria Neo L - 
 
 ## How to use this method on non-supported devices?
