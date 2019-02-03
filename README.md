@@ -1,9 +1,9 @@
 # Mobile-Partition-Format-Tool
 Format the partitions (system, data, cache) of mobile devices that have problems with their memory or write protected (loaded read only) data/cache partitions . 
 
-**If you know the exact memory address for a device, please send it to me.**
+**If you know the exact _"filesystem type"_ , _"flash device type"_ and _"filesystem address"_ for a device, please send it to me.**
 
-## Supported devices
+## Released files
 
 ### * Huawei
 1. Ascend D quad XL - U9510e
@@ -14,12 +14,20 @@ Format the partitions (system, data, cache) of mobile devices that have problems
 ### * Sony
 1. Xpria Neo V - MT11i
    - [update file for: format system, data, cache (yaffs2)](https://github.com/xhdix/Mobile-Partition-Format-Tool/releases/tag/MT11i)
-   - [update file for: format system(yaffs2)](https://github.com/xhdix/Mobile-Partition-Format-Tool/releases/tag/MT11i-system)
-   - [update file for: format data (f2fs)](https://github.com/xhdix/Mobile-Partition-Format-Tool/releases/tag/MT11i-data)
+   - [update file for: format system(yaffs2)](https://github.com/xhdix/Mobile-Partition-Format-Tool/releases/tag/MT11i-system) (External reference)
+   - [update file for: format data (f2fs)](https://github.com/xhdix/Mobile-Partition-Format-Tool/releases/tag/MT11i-data) (External reference)
 2. Xpria Neo L - MT25i
    - update file for: format system, data, cache
 
-## How to use this method on non-supported devices?
+### * HTC
+
+### * ASUS
+
+### * Lenovo
+
+### * Samsung
+
+## How to use this method on other devices?
 
 Normally, device Recovery tools should be sensitive to `SHA1-Digest`, but not. So, you can change the content of the **[updater-script](https://github.com/xhdix/Mobile-Partition-Format-Tool/raw/master/META-INF/com/google/android/updater-script)** file at the following address:
 
@@ -27,8 +35,8 @@ Normally, device Recovery tools should be sensitive to `SHA1-Digest`, but not. S
 
 There are three main lines in it: (Format, Mount, Unmount)
 ```
-format([filesystem types], [flash device type], [filesystem address], "0", [partition address]);
-mount([filesystem types], [flash device type], [filesystem address], [partition address], "");
+format([filesystem type], [flash device type], [filesystem address], "0", [partition address]);
+mount([filesystem type], [flash device type], [filesystem address], [partition address], "");
 unmount([partition address]);
 ```
 
