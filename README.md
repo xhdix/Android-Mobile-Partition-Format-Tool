@@ -29,7 +29,7 @@ Format the partitions (system, data, cache) of mobile devices that have problems
 
 ## How to use this method on other devices?
 
-Normally, device Recovery tools should be sensitive to `SHA1-Digest`, but not. So, you can change the content of the **[updater-script](https://github.com/xhdix/Mobile-Partition-Format-Tool/raw/master/META-INF/com/google/android/updater-script)** file at the following address:
+Normally, device Recovery tools [should be sensitive](https://source.android.com/devices/tech/ota/sign_builds.html) to `SHA1-Digest`, but not. So, you can change the content of the **[updater-script](https://github.com/xhdix/Mobile-Partition-Format-Tool/raw/master/META-INF/com/google/android/updater-script)** file at the following address:
 
 [/META-INF/com/google/android/](https://github.com/xhdix/Mobile-Partition-Format-Tool/tree/master/META-INF/com/google/android)
 
@@ -59,6 +59,7 @@ To find it, you can use [tutorials](https://android.stackexchange.com/a/102551) 
  - https://source.android.com/devices/tech/ota/nonab/inside_packages
  - https://android.googlesource.com/platform/build/+/master/tools/releasetools/ota_from_target_files.py
  - https://source.android.com/devices/tech/ota/nonab/block.html
+ - https://source.android.com/devices/tech/ota/sign_builds.html
  - https://source.android.com/devices/tech/ota/nonab/device_code#partition-map
  - https://www.cnblogs.com/shangdawei/p/4514128.html
  - https://android.stackexchange.com/a/102551
