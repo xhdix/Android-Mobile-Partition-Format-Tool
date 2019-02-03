@@ -1,5 +1,5 @@
 # Mobile-Partition-Format-Tool
-Format the partitions (system, data, cache) of mobile devices that have problems with their memory or write protected (loaded read only) data/cache partitions. ([Using OTA Tools](https://source.android.com/devices/tech/ota/nonab/inside_packages))
+Format the partitions (system, data, cache) of mobile devices that have problems with their memory or write protected (loaded read only) data/cache partitions. ([Using OTA Tools](https://source.android.com/devices/tech/ota/tools))
 
 **If you know the exact _"filesystem type"_ , _"flash device type"_ and _"filesystem address"_ for a device, please send it to me.**
 
@@ -33,7 +33,7 @@ Normally, device Recovery tools [should be sensitive](https://source.android.com
 
 [/META-INF/com/google/android/](https://github.com/xhdix/Mobile-Partition-Format-Tool/tree/master/META-INF/com/google/android)
 
-There are three main lines in it: (Format, Mount, Unmount)
+There are three main lines in it: ([Format, Mount, Unmount](https://source.android.com/devices/tech/ota/nonab/inside_packages))
 ```
 format([filesystem type], [flash device type], [filesystem address], "0", [partition address]);
 mount([filesystem type], [flash device type], [filesystem address], [partition address], "");
