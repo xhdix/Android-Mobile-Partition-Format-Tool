@@ -42,7 +42,7 @@ unmount([partition address]);
 
 - The supported [filesystem types](https://source.android.com/devices/tech/ota/nonab/device_code#partition-map) may be yaffs2, ext4, f2fs, vfat, etc.
 - Each device may have a [flash device type](https://www.cnblogs.com/shangdawei/p/4514128.html) such as MMC, MTD, EMMC, etc.
-- Also, the `filesystem` address may be different. For example, to access the `/system` partition filesystem:
+- Also, the [filesystem address](https://android.stackexchange.com/a/102551) may be different. For example, to access the `/system` partition filesystem:
   - `/dev/block/mtd/by-name/system`
   - `/dev/block/mmcblk0p15`
   - `/dev/block/mmcblk0p5`
@@ -52,7 +52,7 @@ unmount([partition address]);
   - `/dev/block/platform/s3c-sdhci.0/by-name/system`
   - etc
  
-To find it, you can use [tutorials](https://android.stackexchange.com/a/102551) or [Search engines](https://www.google.com/search?q=mt11i++%2Fdev%2Fblock%2F+%2Fsystem) or ask questions at [xda-developers forums](https://forum.xda-developers.com).
+To find it, you can use [tutorials](https://forum.xda-developers.com/android/general/info-android-device-partitions-basic-t3586565) or [Search engines](https://www.google.com/search?q=mt11i++%2Fdev%2Fblock%2F+%2Fsystem) or ask questions at [xda-developers forums](https://forum.xda-developers.com).
 
 ## references
  - https://source.android.com/devices/tech/ota/tools
