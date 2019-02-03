@@ -1,5 +1,5 @@
 # Mobile-Partition-Format-Tool
-Format the partitions (system, data, cache) of mobile devices that have problems with their memory or write protected (loaded read only) data/cache partitions. (Using OTA Tools](https://source.android.com/devices/tech/ota/nonab/inside_packages))
+Format the partitions (system, data, cache) of mobile devices that have problems with their memory or write protected (loaded read only) data/cache partitions. [Using OTA Tools](https://source.android.com/devices/tech/ota/nonab/inside_packages))
 
 **If you know the exact _"filesystem type"_ , _"flash device type"_ and _"filesystem address"_ for a device, please send it to me.**
 
