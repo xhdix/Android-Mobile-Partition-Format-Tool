@@ -9,7 +9,7 @@ Format the partitions (system, data, cache) of mobile devices that have problems
 1. Ascend D quad XL - U9510e
    - [update file for: format system, data, cache (ext4)](https://github.com/xhdix/Mobile-Partition-Format-Tool/releases/tag/U9510e)
 2. Ascend Y300
-   - update file for: format system, data, cache
+   - [update file for: format system, data, cache (yaffs2)(https://github.com/xhdix/Android-Mobile-Partition-Format-Tool/releases/tag/Y300)
 
 ### * Sony
 1. Xpria Neo V - MT11i
@@ -67,4 +67,6 @@ To find it, you can use [tutorials](https://forum.xda-developers.com/android/gen
  - https://forum.xda-developers.com/android/general/info-android-device-partitions-basic-t3586565
  - https://forum.xda-developers.com/xperia-neo/development/rom-candy5-v2-0-2-haida-hallon-t3092668
  - https://github.com/LegacyXperia/local_manifests/issues/898
+ - https://www.modaco.com/forums/topic/374535-how-to-repartition-g330/?do=findComment&comment=2254343
+ - https://github.com/moddingg33k/android_kernel_y300_general/blob/master/ramdisk/b199_huawei/init.rc#L179
  
