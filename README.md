@@ -1,5 +1,5 @@
 # Mobile-Partition-Format-Tool
-Format the partitions (system, data, cache) of mobile devices that have problems with their memory or write protected (loaded read only) data/cache partitions . 
+Format the partitions (system, data, cache) of mobile devices that have problems with their memory or write protected (loaded read only) data/cache partitions. (Using OTA Tools](https://source.android.com/devices/tech/ota/nonab/inside_packages))
 
 **If you know the exact _"filesystem type"_ , _"flash device type"_ and _"filesystem address"_ for a device, please send it to me.**
 
@@ -55,6 +55,10 @@ unmount([partition address]);
 To find it, you can use [tutorials](https://android.stackexchange.com/a/102551) or [Search engines](https://www.google.com/search?q=mt11i++%2Fdev%2Fblock%2F+%2Fsystem) or ask questions at [xda-developers forums](https://forum.xda-developers.com).
 
 ## references
+ - https://source.android.com/devices/tech/ota/tools
+ - https://source.android.com/devices/tech/ota/nonab/inside_packages
+ - https://android.googlesource.com/platform/build/+/master/tools/releasetools/ota_from_target_files.py
+ - https://source.android.com/devices/tech/ota/nonab/block.html
  - https://source.android.com/devices/tech/ota/nonab/device_code#partition-map
  - https://www.cnblogs.com/shangdawei/p/4514128.html
  - https://android.stackexchange.com/a/102551
