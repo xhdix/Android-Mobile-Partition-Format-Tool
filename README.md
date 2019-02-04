@@ -9,7 +9,7 @@ Format the partitions (system, data, cache) of mobile devices that have problems
 1. Ascend D quad XL - U9510e
    - [update file for: format system, data, cache (ext4)](https://github.com/xhdix/Mobile-Partition-Format-Tool/releases/tag/U9510e)
 2. Ascend Y300
-   - [update file for: format system, data, cache (yaffs2)(https://github.com/xhdix/Android-Mobile-Partition-Format-Tool/releases/tag/Y300)
+   - [update file for: format system, data, cache (yaffs2)](https://github.com/xhdix/Android-Mobile-Partition-Format-Tool/releases/tag/Y300)
 
 ### * Sony
 1. Xpria Neo V - MT11i
