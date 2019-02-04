@@ -54,6 +54,16 @@ unmount([partition address]);
  
 To find it, you can use [tutorials](https://forum.xda-developers.com/android/general/info-android-device-partitions-basic-t3586565) or [Search engines](https://www.google.com/search?q=mt11i++%2Fdev%2Fblock%2F+%2Fsystem) or ask questions at [xda-developers forums](https://forum.xda-developers.com).
 
+## How to install
+ - Download the file for your device and place it on the SDcard.
+ - Download the CWM Recovery or TWRP Recovery Image.
+ - Enter fastboot
+ - Boot the recovery in RAM:
+   - fastboot boot recovery.img
+ - Go to the installer or "update via zip file".
+ - Select and install zip file.
+ - Now you can easily flash Android.
+
 ## references
  - https://source.android.com/devices/tech/ota/tools
  - https://source.android.com/devices/tech/ota/nonab/inside_packages
